@@ -14,7 +14,7 @@ import { formatValidationError } from 'src/@shared/filtersErrors/formatValidatio
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 import { AppModule } from './app.module';
-import { createLogInstance } from 'src/@shared/logs/log.setup';
+import { createLogInstance } from 'src/@shared/logs';
 
 async function bootstrap() {
   const DEVELOPMENT = process.env.NODE_ENV === 'development';
