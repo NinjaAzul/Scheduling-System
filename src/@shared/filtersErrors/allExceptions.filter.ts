@@ -8,9 +8,6 @@ import {
 import { BaseExceptionFilter } from '@nestjs/core';
 import { Request, Response } from 'express';
 import { CommonErrorResponseDto } from '../responses/common-error.response.dto';
-import { ValidationError } from 'class-validator';
-import { UnprocessableEntityException } from '@nestjs/common';
-import { formatValidationError } from './formatValidationError';
 
 @Catch()
 export class AllExceptionsFilter
