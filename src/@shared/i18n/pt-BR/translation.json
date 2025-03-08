@@ -1,0 +1,58 @@
+{
+    "MESSAGES": {
+        "IS_STRING_MESSAGE": "deve ser uma string",
+        "IS_NOT_EMPTY_MESSAGE": "não pode ser vazio",
+        "IS_EMAIL_VALID_MESSAGE": "deve ser um email válido",
+        "IS_NUMBER_MESSAGE": "deve ser um número",
+        "IS_ONLY_LETTERS_WITH_SPACE_MESSAGE": "deve ser uma string com apenas letras e espaços",
+        "IS_LENGTH_MESSAGE": "deve ter entre {0.min} e {0.max} caracteres",
+        "IS_PHONE_NUMBER_MESSAGE": "deve ser um número de telefone válido",
+        "IS_ONLY_DATE_MESSAGE": "deve ser uma data válida",
+        "IS_INTEGER_MESSAGE": "deve ser um inteiro válido",
+        "IS_MIN_SIZE_MESSAGE": "deve conter pelo menos {constraints.0} item",
+        "IS_MAX_SIZE_MESSAGE": "deve conter menos de {constraints.0} itens",
+        "IS_PASSWORD_VALID_MESSAGE": "deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial",
+        "IS_BOOLEAN_MESSAGE": "deve ser um booleano",
+        "IS_DATE_MESSAGE": "deve ser uma data válida",
+        "IS_VALID_IP_MESSAGE": "deve ser um IP válido",
+        "IS_VALID_URL_MESSAGE": "deve ser uma URL válida",
+        "IS_VALID_IPV4_MESSAGE": "deve ser um IPV4 válido",
+        "IS_VALID_IPV6_MESSAGE": "deve ser um IPv6 válido",
+        "IS_ENUM_MESSAGE": "deve ser um dos valores permitidos",
+        "IS_ARRAY_MESSAGE": "deve ser um array",
+        "IS_WHITELIST_MESSAGE": "essa propriedade não existe neste corpo de solicitação",
+        "IS_DECIMAL_MESSAGE": "deve ser um número decimal válido",
+        "IS_INVALID_DATE_FORMAT": "deve ser uma data válida",
+        "IS_INVALID_DATE_RANGE": "deve ser uma data válida",
+        "IS_INVALID_DATE_STRING_MESSAGE": "deve ser uma data válida",
+        "IS_INVALID_DATE_TIME_MESSAGE": "deve ser uma data e hora válida"
+    },
+    "MODULES": {
+        "AUTH_SERVICE": {
+            "TOKEN_IS_NOT_VALID": "Token não válido",
+            "PASSWORD_OR_EMAIL_INVALID": "Email ou senha inválidos",
+            "DO_NOT_HAVE_PERMISSION": "Você não tem permissão para acessar este recurso"
+        },
+        "USERS": {
+            "USER_ALREADY_EXISTS": "Usuário já existe",
+            "USER_NOT_FOUND": "Usuário não encontrado",
+            "USER_DELETED": "Usuário deletado com sucesso",
+            "USER_UPDATED": "Usuário atualizado com sucesso",
+            "USER_CREATED": "Usuário criado com sucesso"
+        },
+        "SERVICES": {
+            "SERVICE_CREATED_SUCCESSFULLY": "Serviço criado com sucesso",
+            "SERVICE_NOT_FOUND": "Serviço não encontrado",
+            "SERVICE_UPDATED_SUCCESSFULLY": "Serviço atualizado com sucesso",
+            "SERVICE_DELETED_SUCCESSFULLY": "Serviço deletado com sucesso",
+            "SERVICE_AVAILABILITY_NOT_FOUND": "Disponibilidade do serviço não encontrada",
+            "SERVICE_NOT_AVAILABLE": "Serviço não disponível"
+        },
+        "APPOINTMENTS": {
+            "APPOINTMENT_CREATED_SUCCESSFULLY": "Agendamento criado com sucesso",
+            "APPOINTMENT_NOT_FOUND": "Agendamento não encontrado",
+            "APPOINTMENT_UPDATED_SUCCESSFULLY": "Agendamento atualizado com sucesso",
+            "APPOINTMENT_DELETED_SUCCESSFULLY": "Agendamento deletado com sucesso"
+        }
+    }
+}
