@@ -9,12 +9,12 @@ import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { WinstonModule } from 'nest-winston';
 import { I18nValidationExceptionFilter, I18nValidationPipe } from 'nestjs-i18n';
 
-import { AllExceptionsFilter } from './@shared/filtersErrors/allExceptions.filter';
-import { formatValidationError } from './@shared/filtersErrors/formatValidationError';
+import { AllExceptionsFilter } from 'src/@shared/filtersErrors/allExceptions.filter';
+import { formatValidationError } from 'src/@shared/filtersErrors/formatValidationError';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 import { AppModule } from './app.module';
-import { createLogInstance } from './@shared/logs/log.setup';
+import { createLogInstance } from 'src/@shared/logs/log.setup';
 
 async function bootstrap() {
   const DEVELOPMENT = process.env.NODE_ENV === 'development';
